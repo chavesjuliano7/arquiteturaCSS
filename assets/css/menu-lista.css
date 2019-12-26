@@ -1,0 +1,6 @@
+.menu-lista {
+  display: flex;
+  justify-content: right;
+  padding: 1.2em 0;
+
+}
