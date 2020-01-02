@@ -1,23 +1,25 @@
-.menu-link  {
+.menu__link  {
   margin-right: 1.25rem;
   color: #808080;
   text-transform: uppercase;
   text-decoration: none;
 }
 
- .menu-link.ativo{
+ .menu__link .ativo{
 
   color:#333333;
-
+  border-bottom: 1px solid #808080;
+  padding-bottom: .2em;
   font-weight: 700;
 
 }
 
 
+
 /* esse valor depois de last, especifica mais o item, ou seja, lista todos os menu-item, e pegue o ulitmo filho, neste ultimo filho, adicione a propriedade no menu-link*/
 
 
-.menu-link:hover {
+.menu__link:hover {
   /* text-decoration: orangered; */
   border-bottom: 1px solid #808080;
   padding-bottom: .2rem;
